@@ -38,7 +38,7 @@ def harvest_list(data):
     if lokasi2:
         nama = lokasi2["nama_lokasi"]
         jagung = lokasi2["hasil_panen"]["jagung"]
-        print(f"Lokasi {nama}")
+        print(f"Lokasi nguli {nama}")
         print("Hasil panen")
         print(f"Jagung: {jagung}\n")
     
