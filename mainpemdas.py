@@ -27,7 +27,7 @@ def harvest_list(data):
     for key, value in data.items():
         nama = value["nama_lokasi"]
         hasil = value["hasil_panen"]
-        print(f"Lokasi {nama}")
+        print(f"Lokasi nguli {nama}")
         print("Hasil panen")
         print(f"Jagung: {hasil['jagung']}")
         print(f"Padi: {hasil['padi']}")
